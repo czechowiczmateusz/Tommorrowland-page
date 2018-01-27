@@ -32,6 +32,7 @@ header {
       width: 450px;
       justify-content: space-between;
       font-size: 50px;
+      font-weight: bolder;
       img {
         height: 50px;
       }
@@ -70,8 +71,21 @@ section.main {
 }
 
 section.articles {
+  display: flex;
+  justify-content: center;
   .container {
     width: 1500px;
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    h1 {
+      font-size: 100px;
+      color: #929191;
+    }
+    p {
+      width: 50%;
+      color: #c3c2c2;
+    }
   }
 }
