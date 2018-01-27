@@ -1,4 +1,4 @@
-# Tommorrowland-page
+# Tomorrowland-page
 
 Simple page created with React. Everything is done with flex.
 
