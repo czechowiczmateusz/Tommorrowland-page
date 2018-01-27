@@ -45,6 +45,15 @@ class App extends React.Component {
             <section className="twoksixteen">
                 <div className="container"></div>
             </section>
+            <footer>
+                <div className="container">
+                <ul>
+                    <li><i className="fa fa-facebook" aria-hidden="true"></i>Facebook</li>
+                    <li><i className="fa fa-instagram" aria-hidden="true"></i>Twitter</li>
+                    <li><i className="fa fa-twitter" aria-hidden="true"></i>Instagram</li>
+                </ul>
+                </div>
+            </footer>
         </div>
     }
 }
