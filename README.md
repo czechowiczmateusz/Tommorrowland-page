@@ -13,4 +13,4 @@ Simple page created with React. Everything is done with flex.
 
 ## Demo:
 
-* https://czechowiczmateusz.github.io/Tommorrowland-page/
+* https://czechowiczmateusz.github.io/Tomorrowland-page/
