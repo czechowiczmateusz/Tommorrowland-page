@@ -5,7 +5,17 @@ require('.././styles/style.scss');
 class App extends React.Component {
     render(){
         return <div>
-            <section>
+            <header>
+                <div className="container">
+                    <h1>Tommorrowland</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </header>
+            <section className="main">
                 <div className="container"></div>
             </section>
         </div>

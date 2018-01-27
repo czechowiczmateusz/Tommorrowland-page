@@ -10101,8 +10101,40 @@ var App = function (_React$Component) {
                 "div",
                 null,
                 _react2.default.createElement(
-                    "section",
+                    "header",
                     null,
+                    _react2.default.createElement(
+                        "div",
+                        { className: "container" },
+                        _react2.default.createElement(
+                            "h1",
+                            null,
+                            "Tommorrowland"
+                        ),
+                        _react2.default.createElement(
+                            "ul",
+                            null,
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                "About"
+                            ),
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                "FAQ"
+                            ),
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                "Contact"
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    "section",
+                    { className: "main" },
                     _react2.default.createElement("div", { className: "container" })
                 )
             );
@@ -22629,7 +22661,7 @@ exports = module.exports = __webpack_require__(188)(undefined);
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: 'Open Sans', sans-serif;\n  background-color: white;\n  box-sizing: border-box; }\n\n.container {\n  margin: 0 auto;\n  width: 1000px; }\n\nsection {\n  height: 900px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://festivalsherpa-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/13613195_10154019559369177_3465365054535062495_o.jpg\"); }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  height: 100%; }\n\nbody {\n  font-family: 'Lato', sans-serif;\n  background-color: white;\n  height: 100%; }\n\nheader {\n  height: 100px;\n  background-color: inherit;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  header .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    header .container ul {\n      display: flex;\n      justify-content: space-between;\n      width: 400px; }\n\nsection.main {\n  height: 820px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://festivalsherpa-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/13613195_10154019559369177_3465365054535062495_o.jpg\"); }\n", ""]);
 
 // exports
 
