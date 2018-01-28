@@ -25177,7 +25177,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(215)(content, options);
+var update = __webpack_require__(211)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -25202,7 +25202,7 @@ exports = module.exports = __webpack_require__(210)(undefined);
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  height: 100%; }\n\nbody {\n  font-family: 'Lato', sans-serif;\n  background-color: #eee5e4;\n  height: 100%; }\n\nheader {\n  height: 100px;\n  background: #43C6AC;\n  background: -webkit-linear-gradient(to left, #191654, #43C6AC);\n  background: linear-gradient(to left, #191654, #43C6AC);\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);\n  -moz-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);\n  box-shadow: 0px 30px 5px rgba(100, 100, 100, 0.49); }\n  header .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    header .container ul.left {\n      display: flex;\n      align-items: center;\n      width: 450px;\n      justify-content: space-between;\n      font-size: 50px;\n      font-weight: bolder; }\n      header .container ul.left img {\n        height: 50px;\n        width: 50px; }\n    header .container ul.right {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 400px;\n      text-transform: uppercase;\n      cursor: pointer; }\n      header .container ul.right li {\n        width: 100px;\n        height: 50px;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container ul.right li:hover {\n          background-color: rgba(5, 0, 0, 0.4);\n          border-radius: 10px; }\n\nsection.main {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(211) + ");\n  -webkit-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  -moz-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75); }\n\nsection.articles {\n  display: flex;\n  justify-content: center; }\n  section.articles .container {\n    width: 1500px;\n    height: 500px;\n    display: flex;\n    align-items: center;\n    justify-content: space-around; }\n    section.articles .container h1 {\n      font-size: 100px;\n      color: #7a7979;\n      font-weight: bold; }\n    section.articles .container p {\n      width: 50%;\n      color: #aeadad; }\n\nsection.firstbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(212) + "); }\n\nsection.secondbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(213) + "); }\n\nsection.thirdbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(214) + "); }\n\nfooter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 50px; }\n  footer .container {\n    width: 1500px;\n    display: flex; }\n    footer .container ul {\n      display: flex;\n      width: 100%;\n      justify-content: space-between; }\n      footer .container ul li {\n        display: flex;\n        justify-content: space-between;\n        width: 100px; }\n\n.slider {\n  height: 400px;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .slider .container {\n    width: 1500px; }\n    .slider .container .image {\n      display: flex;\n      justify-content: center; }\n      .slider .container .image img {\n        border-radius: 10px; }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  height: 100%; }\n\nbody {\n  font-family: 'Lato', sans-serif;\n  background-color: #eee5e4;\n  height: 100%; }\n\nheader {\n  height: 100px;\n  background: #43C6AC;\n  background: -webkit-linear-gradient(to left, #191654, #43C6AC);\n  background: linear-gradient(to left, #191654, #43C6AC);\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);\n  -moz-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);\n  box-shadow: 0px 30px 5px rgba(100, 100, 100, 0.49); }\n  header .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    header .container ul.left {\n      display: flex;\n      align-items: center;\n      width: 450px;\n      justify-content: space-between;\n      font-size: 50px;\n      font-weight: bolder; }\n      header .container ul.left img {\n        height: 50px;\n        width: 50px; }\n    header .container ul.right {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 400px;\n      text-transform: uppercase;\n      cursor: pointer; }\n      header .container ul.right li {\n        width: 100px;\n        height: 50px;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container ul.right li:hover {\n          background-color: rgba(5, 0, 0, 0.4);\n          border-radius: 10px; }\n\nsection.main {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://festivalsherpa-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/13613195_10154019559369177_3465365054535062495_o.jpg\");\n  -webkit-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  -moz-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75); }\n\nsection.articles {\n  display: flex;\n  justify-content: center; }\n  section.articles .container {\n    width: 1500px;\n    height: 500px;\n    display: flex;\n    align-items: center;\n    justify-content: space-around; }\n    section.articles .container h1 {\n      font-size: 100px;\n      color: #7a7979;\n      font-weight: bold; }\n    section.articles .container p {\n      width: 50%;\n      color: #aeadad; }\n\nsection.firstbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://www.youredm.com/wp-content/uploads/2017/01/tomorrowland-approved-night-production.jpg\"); }\n\nsection.secondbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://images2.alphacoders.com/609/609571.jpg\"); }\n\nsection.thirdbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Download-Crowd-Photo-PIC-WPB0011513.jpg\"); }\n\nfooter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 50px; }\n  footer .container {\n    width: 1500px;\n    display: flex; }\n    footer .container ul {\n      display: flex;\n      width: 100%;\n      justify-content: space-between; }\n      footer .container ul li {\n        display: flex;\n        justify-content: space-between;\n        width: 100px; }\n\n.slider {\n  height: 400px;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .slider .container {\n    width: 1500px; }\n    .slider .container .image {\n      display: flex;\n      justify-content: center; }\n      .slider .container .image img {\n        border-radius: 10px; }\n", ""]);
 
 // exports
 
@@ -25293,30 +25293,6 @@ function toComment(sourceMap) {
 /* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f980232e9e3a97bb7e35ddc69aaaf927.jpg";
-
-/***/ }),
-/* 212 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "6f51e3c6a65abb1b1d3ac1f45bd8532e.jpg";
-
-/***/ }),
-/* 213 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "b77d7cbc33f9af19359a3b67f45c76b4.jpg";
-
-/***/ }),
-/* 214 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "4aea09b4b757ce3721d51a0e2b97af46.jpg";
-
-/***/ }),
-/* 215 */
-/***/ (function(module, exports, __webpack_require__) {
-
 /*
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
@@ -25370,7 +25346,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(216);
+var	fixUrls = __webpack_require__(212);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -25686,7 +25662,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 216 */
+/* 212 */
 /***/ (function(module, exports) {
 
 
