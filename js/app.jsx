@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Slider from "react-slick";
+import AOS from 'aos'
 require('.././styles/style.scss');
 
 class SimpleSlider extends React.Component {
@@ -24,6 +25,7 @@ class SimpleSlider extends React.Component {
 
 class App extends React.Component {
     render(){
+        AOS.init();
         return <div>
             <header>
                 <div className="container">
@@ -42,7 +44,7 @@ class App extends React.Component {
                 <div className="container"></div>
             </section>
             <section className="articles">
-                <div className="container">
+                <div className="container" data-aos="fade-down">
                     <h1>2017</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus, eius in libero velit veniam. Aperiam architecto, distinctio, est et expedita fuga harum id incidunt minima odio pariatur qui voluptas?
                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam magnam quasi reiciendis reprehenderit vel voluptatibus. Ad aspernatur autem, dolorem, explicabo facilis libero non officia porro praesentium recusandae, sapiente sequi ullam.
@@ -52,7 +54,7 @@ class App extends React.Component {
             </section>
             <section className="firstbackground"></section>
             <section className="articles">
-                <div className="container">
+                <div className="container" data-aos="fade-down">
                     <h1>2016</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus, eius in libero velit veniam. Aperiam architecto, distinctio, est et expedita fuga harum id incidunt minima odio pariatur qui voluptas?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam magnam quasi reiciendis reprehenderit vel voluptatibus. Ad aspernatur autem, dolorem, explicabo facilis libero non officia porro praesentium recusandae, sapiente sequi ullam.
