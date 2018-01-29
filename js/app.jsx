@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Slider from "react-slick";
 import AOS from 'aos'
 import Header from './components/Header/';
+import Main from './components/Main/';
 require('.././styles/style.scss');
 
 class SimpleSlider extends React.Component {
@@ -30,15 +31,7 @@ class SimpleSlider extends React.Component {
 
 
 
-class Main extends React.Component {
-    render(){
-        return (
-            <section className="main">
-                <div className="container"></div>
-            </section>
-        )
-    }
-}
+
 
 class Article extends React.Component {
     render(){
