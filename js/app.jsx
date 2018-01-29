@@ -29,11 +29,13 @@ class App extends React.Component {
         return <div>
             <header>
                 <div className="container">
-                    <ul className="left">
+                    <div className="searchbar">
                         <img src="https://images.contentful.com/9uj5p2yo1ox0/545FhqlS40mYEegoEOYIcu/487935385221aaf84f25649d9b17c407/TML_ICON_BLACK_OUTLINE.png" />
-                        <li>Tomorrowland</li>
-                    </ul>
-                    <ul className="right">
+                        <form>
+                            <input type="text" placeholder="Search..."/>
+                        </form>
+                    </div>
+                    <ul>
                         <li>Tickets</li>
                         <li>FAQ</li>
                         <li>Contact</li>
