@@ -73,7 +73,13 @@ section.main {
   -moz-box-shadow: 0px -5px 20px rgba(0,0,0,0.75);
   box-shadow: 0px -5px 20px rgba(0,0,0,0.75);
   @media only screen and (max-width: 768px) {
-    background-size: 50% 50%;
+    height: 500px;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("./images/main_mobile.png");
   }
 }
 
@@ -107,7 +113,13 @@ section.articles {
   background-attachment: fixed;
   background-image: url("./images/background1.jpg");
   @media only screen and (max-width: 768px) {
-    background-size: 50% 50%;
+    height: 500px;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("./images/background1_mobile.png");
   }
 }
 
@@ -120,7 +132,13 @@ section.articles {
   background-attachment: fixed;
   background-image: url("./images/background2.jpg");
   @media only screen and (max-width: 768px) {
-    background-size: 50% 50%;
+    height: 500px;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("./images/background2_mobile.png");
   }
 }
 
@@ -134,7 +152,13 @@ section.articles {
   background-attachment: fixed;
   background-image: url("./images/background3.jpg");
   @media only screen and (max-width: 768px) {
-    background-size: 50% 50%;
+    height: 500px;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("./images/background3_mobile.png");
   }
 }
 
