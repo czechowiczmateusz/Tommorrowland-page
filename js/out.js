@@ -23016,7 +23016,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(195)(content, options);
+var update = __webpack_require__(200)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -23036,18 +23036,124 @@ if(false) {
 /* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(197)(undefined);
+exports = module.exports = __webpack_require__(195)(undefined);
 // imports
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  height: 100%; }\n\nbody {\n  font-family: 'Lato', sans-serif;\n  background-color: #eee5e4;\n  height: 100%; }\n\nheader {\n  height: 100px;\n  color: #7a7979;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  header .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    header .container .searchbar {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 300px; }\n      header .container .searchbar input[type=text] {\n        width: 100%;\n        height: 30px;\n        box-sizing: border-box;\n        padding: 5px;\n        border-radius: 10px; }\n      header .container .searchbar img {\n        height: 50px;\n        width: 50px; }\n    header .container ul {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 400px;\n      text-transform: uppercase;\n      cursor: pointer; }\n      header .container ul li {\n        width: 100px;\n        height: 50px;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container ul li:hover {\n          background-color: rgba(5, 0, 0, 0.4);\n          border-radius: 10px;\n          color: #eee5e4; }\n\nsection.main {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(198) + ");\n  -webkit-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  -moz-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75); }\n  @media only screen and (max-width: 768px) {\n    section.main {\n      background-size: contain; } }\n\nsection.articles {\n  display: flex;\n  justify-content: center; }\n  section.articles .container {\n    width: 1500px;\n    height: 500px;\n    display: flex;\n    align-items: center;\n    justify-content: space-around; }\n    section.articles .container h1 {\n      font-size: 100px;\n      color: #7a7979;\n      font-weight: bold; }\n    section.articles .container p {\n      width: 50%;\n      color: #aeadad; }\n\n.firstbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(199) + "); }\n  @media only screen and (max-width: 768px) {\n    .firstbackground {\n      background-size: contain; } }\n\n.secondbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(200) + "); }\n  @media only screen and (max-width: 768px) {\n    .secondbackground {\n      background-size: contain; } }\n\n.thirdbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(201) + "); }\n  @media only screen and (max-width: 768px) {\n    .thirdbackground {\n      background-size: contain; } }\n\nfooter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 50px; }\n  footer .container {\n    width: 1500px;\n    display: flex; }\n    footer .container ul {\n      display: flex;\n      width: 100%;\n      justify-content: space-between; }\n      footer .container ul li {\n        display: flex;\n        justify-content: space-between;\n        width: 100px;\n        cursor: pointer; }\n\n.slider {\n  height: 400px;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .slider .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    .slider .container img {\n      border-radius: 10px;\n      height: 200px;\n      width: 400px; }\n  @media screen and (max-width: 1220px) {\n    .slider {\n      height: 700px; }\n      .slider .container {\n        width: 100%;\n        flex-direction: column;\n        align-items: center; }\n        .slider .container img {\n          margin: 5px; } }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  height: 100%; }\n\nbody {\n  font-family: 'Lato', sans-serif;\n  background-color: #eee5e4;\n  height: 100%; }\n\nheader {\n  height: 100px;\n  color: #7a7979;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  header .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    header .container .searchbar {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 300px; }\n      header .container .searchbar input[type=text] {\n        width: 100%;\n        height: 30px;\n        box-sizing: border-box;\n        padding: 5px;\n        border-radius: 10px; }\n      header .container .searchbar img {\n        height: 50px;\n        width: 50px; }\n    header .container ul {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 400px;\n      text-transform: uppercase;\n      cursor: pointer; }\n      header .container ul li {\n        width: 100px;\n        height: 50px;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container ul li:hover {\n          background-color: rgba(5, 0, 0, 0.4);\n          border-radius: 10px;\n          color: #eee5e4; }\n\nsection.main {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(196) + ");\n  -webkit-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  -moz-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75); }\n  @media only screen and (max-width: 768px) {\n    section.main {\n      background-size: 50% 50%; } }\n\nsection.articles {\n  display: flex;\n  justify-content: center; }\n  section.articles .container {\n    width: 1500px;\n    height: 500px;\n    display: flex;\n    align-items: center;\n    justify-content: space-around; }\n    section.articles .container h1 {\n      font-size: 100px;\n      color: #7a7979;\n      font-weight: bold; }\n    section.articles .container p {\n      width: 50%;\n      color: #aeadad; }\n\n.firstbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(197) + "); }\n  @media only screen and (max-width: 768px) {\n    .firstbackground {\n      background-size: 50% 50%; } }\n\n.secondbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(198) + "); }\n  @media only screen and (max-width: 768px) {\n    .secondbackground {\n      background-size: 50% 50%; } }\n\n.thirdbackground {\n  display: flex;\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(199) + "); }\n  @media only screen and (max-width: 768px) {\n    .thirdbackground {\n      background-size: 50% 50%; } }\n\nfooter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 50px; }\n  footer .container {\n    width: 1500px;\n    display: flex; }\n    footer .container ul {\n      display: flex;\n      width: 100%;\n      justify-content: space-between; }\n      footer .container ul li {\n        display: flex;\n        justify-content: space-between;\n        width: 100px;\n        cursor: pointer; }\n\n.slider {\n  height: 400px;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .slider .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    .slider .container img {\n      border-radius: 10px;\n      height: 200px;\n      width: 400px; }\n  @media screen and (max-width: 1220px) {\n    .slider {\n      height: 700px; }\n      .slider .container {\n        width: 100%;\n        flex-direction: column;\n        align-items: center; }\n        .slider .container img {\n          margin: 5px; } }\n", ""]);
 
 // exports
 
 
 /***/ }),
 /* 195 */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+/* 196 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "styles/images/main.jpg";
+
+/***/ }),
+/* 197 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "styles/images/background1.jpg";
+
+/***/ }),
+/* 198 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "styles/images/background2.jpg";
+
+/***/ }),
+/* 199 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "styles/images/background3.jpg";
+
+/***/ }),
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -23103,7 +23209,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(196);
+var	fixUrls = __webpack_require__(201);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -23419,7 +23525,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 196 */
+/* 201 */
 /***/ (function(module, exports) {
 
 
@@ -23512,112 +23618,6 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
-
-/***/ }),
-/* 197 */
-/***/ (function(module, exports) {
-
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-module.exports = function(useSourceMap) {
-	var list = [];
-
-	// return the list of modules as css string
-	list.toString = function toString() {
-		return this.map(function (item) {
-			var content = cssWithMappingToString(item, useSourceMap);
-			if(item[2]) {
-				return "@media " + item[2] + "{" + content + "}";
-			} else {
-				return content;
-			}
-		}).join("");
-	};
-
-	// import a list of modules into the list
-	list.i = function(modules, mediaQuery) {
-		if(typeof modules === "string")
-			modules = [[null, modules, ""]];
-		var alreadyImportedModules = {};
-		for(var i = 0; i < this.length; i++) {
-			var id = this[i][0];
-			if(typeof id === "number")
-				alreadyImportedModules[id] = true;
-		}
-		for(i = 0; i < modules.length; i++) {
-			var item = modules[i];
-			// skip already imported module
-			// this implementation is not 100% perfect for weird media query combinations
-			//  when a module is imported multiple times with different media queries.
-			//  I hope this will never occur (Hey this way we have smaller bundles)
-			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-				if(mediaQuery && !item[2]) {
-					item[2] = mediaQuery;
-				} else if(mediaQuery) {
-					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-				}
-				list.push(item);
-			}
-		}
-	};
-	return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-	var content = item[1] || '';
-	var cssMapping = item[3];
-	if (!cssMapping) {
-		return content;
-	}
-
-	if (useSourceMap && typeof btoa === 'function') {
-		var sourceMapping = toComment(cssMapping);
-		var sourceURLs = cssMapping.sources.map(function (source) {
-			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
-		});
-
-		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-	}
-
-	return [content].join('\n');
-}
-
-// Adapted from convert-source-map (MIT)
-function toComment(sourceMap) {
-	// eslint-disable-next-line no-undef
-	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
-
-	return '/*# ' + data + ' */';
-}
-
-
-/***/ }),
-/* 198 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "styles/images/main.jpg";
-
-/***/ }),
-/* 199 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "styles/images/background1.jpg";
-
-/***/ }),
-/* 200 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "styles/images/background2.jpg";
-
-/***/ }),
-/* 201 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "styles/images/background3.jpg";
 
 /***/ })
 /******/ ]);
