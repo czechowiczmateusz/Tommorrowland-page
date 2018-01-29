@@ -12,8 +12,7 @@ body {
 
 header {
   height: 100px;
-  background-color: #7a7979;
-  color: white;
+  color: #7a7979;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +54,7 @@ header {
         &:hover {
           background-color: rgba(5, 0, 0, 0.4);
           border-radius: 10px;
+          color: #eee5e4;
         }
       }
     }
