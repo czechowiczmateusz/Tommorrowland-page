@@ -72,11 +72,10 @@ section.main {
   -webkit-box-shadow: 0px -5px 20px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px -5px 20px rgba(0,0,0,0.75);
   box-shadow: 0px -5px 20px rgba(0,0,0,0.75);
-  @media screen and (max-width: 1220px) {
-    background-image: url("./images/main_tablet.jpg");
-  }
-  @media screen and (max-width: 665px) {
-    background-image: url("./images/main_mobile.jpg");
+  @media only screen and (max-width: 768px) {
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
   }
 }
 
@@ -108,9 +107,11 @@ section.articles {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("./images/background1_mobile.jpg");
-  @media only screen and (min-width: 768px) {
-    background-image: url("./images/background1.jpg");
+  background-image: url("./images/background1.jpg");
+  @media only screen and (max-width: 768px) {
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
   }
 }
 
@@ -122,6 +123,11 @@ section.articles {
   background-size: cover;
   background-attachment: fixed;
   background-image: url("./images/background2.jpg");
+  @media only screen and (max-width: 768px) {
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+  }
 }
 
 .thirdbackground {
@@ -132,8 +138,10 @@ section.articles {
   background-size: cover;
   background-attachment: fixed;
   background-image: url("./images/background3.jpg");
-  @media screen and (max-width: 683px) {
-    background-image: url("./images/background3_mobile.jpg");
+  @media only screen and (max-width: 768px) {
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
   }
 }
 
