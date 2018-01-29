@@ -1,26 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Slider from "react-slick";
 import Header from './components/Header/';
 import Main from './components/Main/';
 import Article from './components/Article/';
 import Background from './components/Background/';
 import Gallery from './components/Gallery/';
 import Footer from './components/Footer/';
-
 require('.././styles/style.scss');
-
-
-
-
-
-
-
-
-
-
-
-
 
 class App extends React.Component {
     render(){
