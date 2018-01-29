@@ -108,9 +108,9 @@ section.articles {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("./images/background1.jpg");
-  @media screen and (max-width: 768px) {
-    background-image: url("./images/background1_mobile.jpg");
+  background-image: url("./images/background1_mobile.jpg");
+  @media only screen and (min-width: 768px) {
+    background-image: url("./images/background1.jpg");
   }
 }
 
