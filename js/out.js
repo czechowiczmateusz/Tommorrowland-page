@@ -777,7 +777,7 @@ module.exports = ExecutionEnvironment;
 
 var _prodInvariant = __webpack_require__(18);
 
-var ReactCurrentOwner = __webpack_require__(10);
+var ReactCurrentOwner = __webpack_require__(11);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -1217,6 +1217,16 @@ module.exports = emptyFunction;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
+module.exports = __webpack_require__(17);
+
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1245,7 +1255,7 @@ var ReactCurrentOwner = {
 module.exports = ReactCurrentOwner;
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1498,16 +1508,6 @@ var ReactUpdates = {
 
 module.exports = ReactUpdates;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = __webpack_require__(17);
-
 
 /***/ }),
 /* 13 */
@@ -2014,7 +2014,7 @@ module.exports = DOMProperty;
 
 var _assign = __webpack_require__(4);
 
-var ReactCurrentOwner = __webpack_require__(10);
+var ReactCurrentOwner = __webpack_require__(11);
 
 var warning = __webpack_require__(2);
 var canDefineProperty = __webpack_require__(25);
@@ -5891,10 +5891,10 @@ module.exports = KeyEscapeUtils;
 
 var _prodInvariant = __webpack_require__(3);
 
-var ReactCurrentOwner = __webpack_require__(10);
+var ReactCurrentOwner = __webpack_require__(11);
 var ReactInstanceMap = __webpack_require__(24);
 var ReactInstrumentation = __webpack_require__(8);
-var ReactUpdates = __webpack_require__(11);
+var ReactUpdates = __webpack_require__(12);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -6551,7 +6551,7 @@ exports.__esModule = true;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _react = __webpack_require__(12);
+var _react = __webpack_require__(10);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -7250,7 +7250,7 @@ module.exports = getIteratorFn;
 
 
 
-var ReactCurrentOwner = __webpack_require__(10);
+var ReactCurrentOwner = __webpack_require__(11);
 var ReactComponentTreeHook = __webpack_require__(7);
 var ReactElement = __webpack_require__(15);
 
@@ -9440,7 +9440,7 @@ var _assign = __webpack_require__(4);
 
 var LinkedValueUtils = __webpack_require__(44);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactUpdates = __webpack_require__(11);
+var ReactUpdates = __webpack_require__(12);
 
 var warning = __webpack_require__(2);
 
@@ -9924,7 +9924,7 @@ module.exports = ReactHostComponent;
 
 var _prodInvariant = __webpack_require__(3);
 
-var ReactCurrentOwner = __webpack_require__(10);
+var ReactCurrentOwner = __webpack_require__(11);
 var REACT_ELEMENT_TYPE = __webpack_require__(151);
 
 var getIteratorFn = __webpack_require__(152);
@@ -10357,7 +10357,7 @@ var DOMLazyTree = __webpack_require__(20);
 var DOMProperty = __webpack_require__(14);
 var React = __webpack_require__(17);
 var ReactBrowserEventEmitter = __webpack_require__(33);
-var ReactCurrentOwner = __webpack_require__(10);
+var ReactCurrentOwner = __webpack_require__(11);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactDOMContainerInfo = __webpack_require__(181);
 var ReactDOMFeatureFlags = __webpack_require__(182);
@@ -10367,7 +10367,7 @@ var ReactInstrumentation = __webpack_require__(8);
 var ReactMarkupChecksum = __webpack_require__(183);
 var ReactReconciler = __webpack_require__(19);
 var ReactUpdateQueue = __webpack_require__(49);
-var ReactUpdates = __webpack_require__(11);
+var ReactUpdates = __webpack_require__(12);
 
 var emptyObject = __webpack_require__(26);
 var instantiateReactComponent = __webpack_require__(76);
@@ -11080,7 +11080,7 @@ var getTrackLeft = exports.getTrackLeft = function getTrackLeft(spec) {
 "use strict";
 
 
-var _react = __webpack_require__(12);
+var _react = __webpack_require__(10);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -11674,7 +11674,7 @@ module.exports = __webpack_require__(91);
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(12);
+var _react = __webpack_require__(10);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -11690,6 +11690,10 @@ var _aos = __webpack_require__(207);
 
 var _aos2 = _interopRequireDefault(_aos);
 
+var _Header = __webpack_require__(208);
+
+var _Header2 = _interopRequireDefault(_Header);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -11698,7 +11702,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-__webpack_require__(208);
+__webpack_require__(209);
 
 var SimpleSlider = function (_React$Component) {
     _inherits(SimpleSlider, _React$Component);
@@ -11720,22 +11724,30 @@ var SimpleSlider = function (_React$Component) {
                 slidesToScroll: 1
             };
             return _react2.default.createElement(
-                _reactSlick2.default,
-                settings,
+                "section",
+                { className: "slider" },
                 _react2.default.createElement(
                     "div",
-                    { className: "image" },
-                    _react2.default.createElement("img", { src: "https://starlightpr1.com/upload/blog_image/1516256012_tomorrowland-belgium-atmosphere-2016-billboard-1548.jpg" })
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { className: "image" },
-                    _react2.default.createElement("img", { src: "https://i.pinimg.com/564x/1d/4c/fd/1d4cfdc27b5db9de7c006d59ab7cb101--tomorrowland--tomorrowland-belgium.jpg" })
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { className: "image" },
-                    _react2.default.createElement("img", { src: "https://i.pinimg.com/originals/9e/60/08/9e600838a00c4c7d863a3fc47751025d.jpg" })
+                    { className: "container" },
+                    _react2.default.createElement(
+                        _reactSlick2.default,
+                        settings,
+                        _react2.default.createElement(
+                            "div",
+                            { className: "image" },
+                            _react2.default.createElement("img", { src: "https://starlightpr1.com/upload/blog_image/1516256012_tomorrowland-belgium-atmosphere-2016-billboard-1548.jpg" })
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "image" },
+                            _react2.default.createElement("img", { src: "https://i.pinimg.com/564x/1d/4c/fd/1d4cfdc27b5db9de7c006d59ab7cb101--tomorrowland--tomorrowland-belgium.jpg" })
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "image" },
+                            _react2.default.createElement("img", { src: "https://i.pinimg.com/originals/9e/60/08/9e600838a00c4c7d863a3fc47751025d.jpg" })
+                        )
+                    )
                 )
             );
         }
@@ -11744,8 +11756,135 @@ var SimpleSlider = function (_React$Component) {
     return SimpleSlider;
 }(_react2.default.Component);
 
-var App = function (_React$Component2) {
-    _inherits(App, _React$Component2);
+var Main = function (_React$Component2) {
+    _inherits(Main, _React$Component2);
+
+    function Main() {
+        _classCallCheck(this, Main);
+
+        return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).apply(this, arguments));
+    }
+
+    _createClass(Main, [{
+        key: "render",
+        value: function render() {
+            return _react2.default.createElement(
+                "section",
+                { className: "main" },
+                _react2.default.createElement("div", { className: "container" })
+            );
+        }
+    }]);
+
+    return Main;
+}(_react2.default.Component);
+
+var Article = function (_React$Component3) {
+    _inherits(Article, _React$Component3);
+
+    function Article() {
+        _classCallCheck(this, Article);
+
+        return _possibleConstructorReturn(this, (Article.__proto__ || Object.getPrototypeOf(Article)).apply(this, arguments));
+    }
+
+    _createClass(Article, [{
+        key: "render",
+        value: function render() {
+            _aos2.default.init();
+            return _react2.default.createElement(
+                "section",
+                { className: "articles" },
+                _react2.default.createElement(
+                    "div",
+                    { className: "container", "data-aos": "fade-down" },
+                    _react2.default.createElement(
+                        "h1",
+                        null,
+                        this.props.years
+                    ),
+                    _react2.default.createElement(
+                        "p",
+                        null,
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus, eius in libero velit veniam. Aperiam architecto, distinctio, est et expedita fuga harum id incidunt minima odio pariatur qui voluptas? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam magnam quasi reiciendis reprehenderit vel voluptatibus. Ad aspernatur autem, dolorem, explicabo facilis libero non officia porro praesentium recusandae, sapiente sequi ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at aut consectetur consequatur dicta dolore earum fuga illo impedit modi, placeat praesentium quasi, quo, rem saepe sit sunt suscipit tenetur."
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Article;
+}(_react2.default.Component);
+
+var Background = function (_React$Component4) {
+    _inherits(Background, _React$Component4);
+
+    function Background() {
+        _classCallCheck(this, Background);
+
+        return _possibleConstructorReturn(this, (Background.__proto__ || Object.getPrototypeOf(Background)).apply(this, arguments));
+    }
+
+    _createClass(Background, [{
+        key: "render",
+        value: function render() {
+            return _react2.default.createElement("div", { className: this.props.background });
+        }
+    }]);
+
+    return Background;
+}(_react2.default.Component);
+
+var Footer = function (_React$Component5) {
+    _inherits(Footer, _React$Component5);
+
+    function Footer() {
+        _classCallCheck(this, Footer);
+
+        return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+    }
+
+    _createClass(Footer, [{
+        key: "render",
+        value: function render() {
+            return _react2.default.createElement(
+                "footer",
+                null,
+                _react2.default.createElement(
+                    "div",
+                    { className: "container" },
+                    _react2.default.createElement(
+                        "ul",
+                        null,
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            _react2.default.createElement("i", { className: "fa fa-facebook", "aria-hidden": "true" }),
+                            "Facebook"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            _react2.default.createElement("i", { className: "fa fa-instagram", "aria-hidden": "true" }),
+                            "Twitter"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            _react2.default.createElement("i", { className: "fa fa-twitter", "aria-hidden": "true" }),
+                            "Instagram"
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Footer;
+}(_react2.default.Component);
+
+var App = function (_React$Component6) {
+    _inherits(App, _React$Component6);
 
     function App() {
         _classCallCheck(this, App);
@@ -11756,130 +11895,18 @@ var App = function (_React$Component2) {
     _createClass(App, [{
         key: "render",
         value: function render() {
-            _aos2.default.init();
             return _react2.default.createElement(
                 "div",
                 null,
-                _react2.default.createElement(
-                    "header",
-                    null,
-                    _react2.default.createElement(
-                        "div",
-                        { className: "container" },
-                        _react2.default.createElement(
-                            "div",
-                            { className: "searchbar" },
-                            _react2.default.createElement("img", { src: "https://images.contentful.com/9uj5p2yo1ox0/545FhqlS40mYEegoEOYIcu/487935385221aaf84f25649d9b17c407/TML_ICON_BLACK_OUTLINE.png" }),
-                            _react2.default.createElement(
-                                "form",
-                                null,
-                                _react2.default.createElement("input", { type: "text", placeholder: "Search..." })
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "ul",
-                            null,
-                            _react2.default.createElement(
-                                "li",
-                                null,
-                                "Tickets"
-                            ),
-                            _react2.default.createElement(
-                                "li",
-                                null,
-                                "FAQ"
-                            ),
-                            _react2.default.createElement(
-                                "li",
-                                null,
-                                "Contact"
-                            )
-                        )
-                    )
-                ),
-                _react2.default.createElement(
-                    "section",
-                    { className: "main" },
-                    _react2.default.createElement("div", { className: "container" })
-                ),
-                _react2.default.createElement(
-                    "section",
-                    { className: "articles" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "container", "data-aos": "fade-down" },
-                        _react2.default.createElement(
-                            "h1",
-                            null,
-                            "2017"
-                        ),
-                        _react2.default.createElement(
-                            "p",
-                            null,
-                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus, eius in libero velit veniam. Aperiam architecto, distinctio, est et expedita fuga harum id incidunt minima odio pariatur qui voluptas? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam magnam quasi reiciendis reprehenderit vel voluptatibus. Ad aspernatur autem, dolorem, explicabo facilis libero non officia porro praesentium recusandae, sapiente sequi ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at aut consectetur consequatur dicta dolore earum fuga illo impedit modi, placeat praesentium quasi, quo, rem saepe sit sunt suscipit tenetur."
-                        )
-                    )
-                ),
-                _react2.default.createElement("section", { className: "firstbackground" }),
-                _react2.default.createElement(
-                    "section",
-                    { className: "articles" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "container", "data-aos": "fade-down" },
-                        _react2.default.createElement(
-                            "h1",
-                            null,
-                            "2016"
-                        ),
-                        _react2.default.createElement(
-                            "p",
-                            null,
-                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus, eius in libero velit veniam. Aperiam architecto, distinctio, est et expedita fuga harum id incidunt minima odio pariatur qui voluptas? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam magnam quasi reiciendis reprehenderit vel voluptatibus. Ad aspernatur autem, dolorem, explicabo facilis libero non officia porro praesentium recusandae, sapiente sequi ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at aut consectetur consequatur dicta dolore earum fuga illo impedit modi, placeat praesentium quasi, quo, rem saepe sit sunt suscipit tenetur."
-                        )
-                    )
-                ),
-                _react2.default.createElement("section", { className: "secondbackground" }),
-                _react2.default.createElement(
-                    "section",
-                    { className: "slider" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "container" },
-                        _react2.default.createElement(SimpleSlider, null)
-                    )
-                ),
-                _react2.default.createElement("section", { className: "thirdbackground" }),
-                _react2.default.createElement(
-                    "footer",
-                    null,
-                    _react2.default.createElement(
-                        "div",
-                        { className: "container" },
-                        _react2.default.createElement(
-                            "ul",
-                            null,
-                            _react2.default.createElement(
-                                "li",
-                                null,
-                                _react2.default.createElement("i", { className: "fa fa-facebook", "aria-hidden": "true" }),
-                                "Facebook"
-                            ),
-                            _react2.default.createElement(
-                                "li",
-                                null,
-                                _react2.default.createElement("i", { className: "fa fa-instagram", "aria-hidden": "true" }),
-                                "Twitter"
-                            ),
-                            _react2.default.createElement(
-                                "li",
-                                null,
-                                _react2.default.createElement("i", { className: "fa fa-twitter", "aria-hidden": "true" }),
-                                "Instagram"
-                            )
-                        )
-                    )
-                )
+                _react2.default.createElement(_Header2.default, null),
+                _react2.default.createElement(Main, null),
+                _react2.default.createElement(Article, { years: "2017" }),
+                _react2.default.createElement(Background, { background: "firstbackground" }),
+                _react2.default.createElement(Article, { years: "2016" }),
+                _react2.default.createElement(Background, { background: "secondbackground" }),
+                _react2.default.createElement(SimpleSlider, null),
+                _react2.default.createElement(Background, { background: "thirdbackground" }),
+                _react2.default.createElement(Footer, null)
             );
         }
     }]);
@@ -12218,7 +12245,7 @@ module.exports = PooledClass;
 
 var _prodInvariant = __webpack_require__(18);
 
-var ReactCurrentOwner = __webpack_require__(10);
+var ReactCurrentOwner = __webpack_require__(11);
 var REACT_ELEMENT_TYPE = __webpack_require__(55);
 
 var getIteratorFn = __webpack_require__(56);
@@ -13501,7 +13528,7 @@ var ReactDOMComponentTree = __webpack_require__(5);
 var ReactDefaultInjection = __webpack_require__(107);
 var ReactMount = __webpack_require__(84);
 var ReactReconciler = __webpack_require__(19);
-var ReactUpdates = __webpack_require__(11);
+var ReactUpdates = __webpack_require__(12);
 var ReactVersion = __webpack_require__(185);
 
 var findDOMNode = __webpack_require__(186);
@@ -14344,7 +14371,7 @@ var EventPluginHub = __webpack_require__(22);
 var EventPropagators = __webpack_require__(21);
 var ExecutionEnvironment = __webpack_require__(6);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactUpdates = __webpack_require__(11);
+var ReactUpdates = __webpack_require__(12);
 var SyntheticEvent = __webpack_require__(13);
 
 var inputValueTracking = __webpack_require__(67);
@@ -17865,7 +17892,7 @@ var _prodInvariant = __webpack_require__(3),
 var DOMPropertyOperations = __webpack_require__(73);
 var LinkedValueUtils = __webpack_require__(44);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactUpdates = __webpack_require__(11);
+var ReactUpdates = __webpack_require__(12);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -18281,7 +18308,7 @@ var _prodInvariant = __webpack_require__(3),
 
 var LinkedValueUtils = __webpack_require__(44);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactUpdates = __webpack_require__(11);
+var ReactUpdates = __webpack_require__(12);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -18446,7 +18473,7 @@ var ReactComponentEnvironment = __webpack_require__(45);
 var ReactInstanceMap = __webpack_require__(24);
 var ReactInstrumentation = __webpack_require__(8);
 
-var ReactCurrentOwner = __webpack_require__(10);
+var ReactCurrentOwner = __webpack_require__(11);
 var ReactReconciler = __webpack_require__(19);
 var ReactChildReconciler = __webpack_require__(146);
 
@@ -19052,7 +19079,7 @@ var _prodInvariant = __webpack_require__(3),
 
 var React = __webpack_require__(17);
 var ReactComponentEnvironment = __webpack_require__(45);
-var ReactCurrentOwner = __webpack_require__(10);
+var ReactCurrentOwner = __webpack_require__(11);
 var ReactErrorUtils = __webpack_require__(37);
 var ReactInstanceMap = __webpack_require__(24);
 var ReactInstrumentation = __webpack_require__(8);
@@ -20850,7 +20877,7 @@ module.exports = ReactDOMTextComponent;
 
 var _assign = __webpack_require__(4);
 
-var ReactUpdates = __webpack_require__(11);
+var ReactUpdates = __webpack_require__(12);
 var Transaction = __webpack_require__(29);
 
 var emptyFunction = __webpack_require__(9);
@@ -20925,7 +20952,7 @@ var EventListener = __webpack_require__(81);
 var ExecutionEnvironment = __webpack_require__(6);
 var PooledClass = __webpack_require__(16);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactUpdates = __webpack_require__(11);
+var ReactUpdates = __webpack_require__(12);
 
 var getEventTarget = __webpack_require__(38);
 var getUnboundedScrollPosition = __webpack_require__(161);
@@ -21126,7 +21153,7 @@ var ReactComponentEnvironment = __webpack_require__(45);
 var ReactEmptyComponent = __webpack_require__(78);
 var ReactBrowserEventEmitter = __webpack_require__(33);
 var ReactHostComponent = __webpack_require__(79);
-var ReactUpdates = __webpack_require__(11);
+var ReactUpdates = __webpack_require__(12);
 
 var ReactInjection = {
   Component: ReactComponentEnvironment.injection,
@@ -23140,7 +23167,7 @@ module.exports = '15.6.2';
 
 var _prodInvariant = __webpack_require__(3);
 
-var ReactCurrentOwner = __webpack_require__(10);
+var ReactCurrentOwner = __webpack_require__(11);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstanceMap = __webpack_require__(24);
 
@@ -23486,7 +23513,7 @@ exports.__esModule = true;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _react = __webpack_require__(12);
+var _react = __webpack_require__(10);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -23650,7 +23677,7 @@ exports.InnerSlider = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _react = __webpack_require__(12);
+var _react = __webpack_require__(10);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -24366,7 +24393,7 @@ module.exports = initialState;
 
 
 
-var React = __webpack_require__(12);
+var React = __webpack_require__(10);
 var factory = __webpack_require__(60);
 
 if (typeof React === 'undefined') {
@@ -24396,7 +24423,7 @@ module.exports = factory(
 exports.__esModule = true;
 exports.Track = undefined;
 
-var _react = __webpack_require__(12);
+var _react = __webpack_require__(10);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -24572,7 +24599,7 @@ var Track = exports.Track = function (_React$Component) {
 exports.__esModule = true;
 exports.Dots = undefined;
 
-var _react = __webpack_require__(12);
+var _react = __webpack_require__(10);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -24667,7 +24694,7 @@ exports.NextArrow = exports.PrevArrow = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _react = __webpack_require__(12);
+var _react = __webpack_require__(10);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -25166,10 +25193,92 @@ module.exports = QueryHandler;
 /* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(10);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Header = function (_React$Component) {
+    _inherits(Header, _React$Component);
+
+    function Header() {
+        _classCallCheck(this, Header);
+
+        return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+    }
+
+    _createClass(Header, [{
+        key: "render",
+        value: function render() {
+            return _react2.default.createElement(
+                "header",
+                null,
+                _react2.default.createElement(
+                    "div",
+                    { className: "container" },
+                    _react2.default.createElement(
+                        "div",
+                        { className: "searchbar" },
+                        _react2.default.createElement("img", { src: "https://images.contentful.com/9uj5p2yo1ox0/545FhqlS40mYEegoEOYIcu/487935385221aaf84f25649d9b17c407/TML_ICON_BLACK_OUTLINE.png" }),
+                        _react2.default.createElement(
+                            "form",
+                            null,
+                            _react2.default.createElement("input", { type: "text", placeholder: "Search..." })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        "ul",
+                        null,
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "Tickets"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "FAQ"
+                        ),
+                        _react2.default.createElement(
+                            "li",
+                            null,
+                            "Contact"
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Header;
+}(_react2.default.Component);
+
+exports.default = Header;
+
+/***/ }),
+/* 209 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(209);
+var content = __webpack_require__(210);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -25177,7 +25286,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(211)(content, options);
+var update = __webpack_require__(212)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -25194,21 +25303,21 @@ if(false) {
 }
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(210)(undefined);
+exports = module.exports = __webpack_require__(211)(undefined);
 // imports
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  height: 100%; }\n\nbody {\n  font-family: 'Lato', sans-serif;\n  background-color: #eee5e4;\n  height: 100%; }\n\nheader {\n  height: 100px;\n  background-color: #7a7979;\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  header .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    header .container .searchbar {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 300px; }\n      header .container .searchbar input[type=text] {\n        width: 100%;\n        height: 30px;\n        box-sizing: border-box;\n        padding: 5px;\n        border-radius: 10px; }\n      header .container .searchbar img {\n        height: 50px;\n        width: 50px; }\n    header .container ul {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 400px;\n      text-transform: uppercase;\n      cursor: pointer; }\n      header .container ul li {\n        width: 100px;\n        height: 50px;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container ul li:hover {\n          background-color: rgba(5, 0, 0, 0.4);\n          border-radius: 10px; }\n\nsection.main {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://festivalsherpa-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/13613195_10154019559369177_3465365054535062495_o.jpg\");\n  -webkit-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  -moz-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75); }\n\nsection.articles {\n  display: flex;\n  justify-content: center; }\n  section.articles .container {\n    width: 1500px;\n    height: 500px;\n    display: flex;\n    align-items: center;\n    justify-content: space-around; }\n    section.articles .container h1 {\n      font-size: 100px;\n      color: #7a7979;\n      font-weight: bold; }\n    section.articles .container p {\n      width: 50%;\n      color: #aeadad; }\n\nsection.firstbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://www.youredm.com/wp-content/uploads/2017/01/tomorrowland-approved-night-production.jpg\"); }\n\nsection.secondbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://images2.alphacoders.com/609/609571.jpg\"); }\n\nsection.thirdbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Download-Crowd-Photo-PIC-WPB0011513.jpg\"); }\n\nfooter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 50px; }\n  footer .container {\n    width: 1500px;\n    display: flex; }\n    footer .container ul {\n      display: flex;\n      width: 100%;\n      justify-content: space-between; }\n      footer .container ul li {\n        display: flex;\n        justify-content: space-between;\n        width: 100px;\n        cursor: pointer; }\n\n.slider {\n  height: 400px;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .slider .container {\n    width: 1500px; }\n    .slider .container .image {\n      display: flex;\n      justify-content: center; }\n      .slider .container .image img {\n        border-radius: 10px; }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  height: 100%; }\n\nbody {\n  font-family: 'Lato', sans-serif;\n  background-color: #eee5e4;\n  height: 100%; }\n\nheader {\n  height: 100px;\n  background-color: #7a7979;\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  header .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    header .container .searchbar {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 300px; }\n      header .container .searchbar input[type=text] {\n        width: 100%;\n        height: 30px;\n        box-sizing: border-box;\n        padding: 5px;\n        border-radius: 10px; }\n      header .container .searchbar img {\n        height: 50px;\n        width: 50px; }\n    header .container ul {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 400px;\n      text-transform: uppercase;\n      cursor: pointer; }\n      header .container ul li {\n        width: 100px;\n        height: 50px;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container ul li:hover {\n          background-color: rgba(5, 0, 0, 0.4);\n          border-radius: 10px; }\n\nsection.main {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://festivalsherpa-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/13613195_10154019559369177_3465365054535062495_o.jpg\");\n  -webkit-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  -moz-box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75);\n  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.75); }\n\nsection.articles {\n  display: flex;\n  justify-content: center; }\n  section.articles .container {\n    width: 1500px;\n    height: 500px;\n    display: flex;\n    align-items: center;\n    justify-content: space-around; }\n    section.articles .container h1 {\n      font-size: 100px;\n      color: #7a7979;\n      font-weight: bold; }\n    section.articles .container p {\n      width: 50%;\n      color: #aeadad; }\n\n.firstbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://www.youredm.com/wp-content/uploads/2017/01/tomorrowland-approved-night-production.jpg\"); }\n\n.secondbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://images2.alphacoders.com/609/609571.jpg\"); }\n\n.thirdbackground {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(\"https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Download-Crowd-Photo-PIC-WPB0011513.jpg\"); }\n\nfooter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 50px; }\n  footer .container {\n    width: 1500px;\n    display: flex; }\n    footer .container ul {\n      display: flex;\n      width: 100%;\n      justify-content: space-between; }\n      footer .container ul li {\n        display: flex;\n        justify-content: space-between;\n        width: 100px;\n        cursor: pointer; }\n\n.slider {\n  height: 400px;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .slider .container {\n    width: 1000px; }\n    .slider .container .image {\n      display: flex;\n      justify-content: center; }\n      .slider .container .image img {\n        border-radius: 10px; }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, exports) {
 
 /*
@@ -25290,7 +25399,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -25346,7 +25455,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(212);
+var	fixUrls = __webpack_require__(213);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -25662,7 +25771,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, exports) {
 
 
