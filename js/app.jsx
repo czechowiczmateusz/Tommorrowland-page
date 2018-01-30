@@ -13,7 +13,9 @@ class App extends React.Component {
         return <div>
             <Header></Header>
             <Main></Main>
+            <Main></Main>
             <Article years="2017"></Article>
+            <Background background="firstbackground"></Background>
             <Background background="firstbackground"></Background>
             <Article years="2016"></Article>
             <Background background="secondbackground"></Background>
