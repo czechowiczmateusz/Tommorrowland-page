@@ -108,7 +108,7 @@ section.articles {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  @media screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     display: flex;
     height: 800px;
     background-color: inherit;
@@ -126,7 +126,7 @@ section.articles {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  @media screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     display: flex;
     height: 800px;
     background-color: inherit;
@@ -144,7 +144,7 @@ section.articles {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  @media screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     display: flex;
     height: 800px;
     background-color: inherit;
