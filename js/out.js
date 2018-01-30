@@ -10136,7 +10136,6 @@ var App = function (_React$Component) {
                 null,
                 _react2.default.createElement(_Header2.default, null),
                 _react2.default.createElement(_Main2.default, null),
-                _react2.default.createElement(_Main2.default, null),
                 _react2.default.createElement(_Article2.default, { years: "2017" }),
                 _react2.default.createElement(_Background2.default, { background: "firstbackground" }),
                 _react2.default.createElement(_Background2.default, { background: "firstbackground" }),
