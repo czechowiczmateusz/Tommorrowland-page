@@ -61,7 +61,7 @@ header {
   }
 }
 
-section.main {
+main {
   height: 400px;
   background-repeat: no-repeat;
   background-position: center;
@@ -75,9 +75,6 @@ section.main {
     background-size: cover;
     background-attachment: fixed;
     background-image: url("./images/main.jpg");
-    -webkit-box-shadow: 0px -5px 20px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px -5px 20px rgba(0,0,0,0.75);
-    box-shadow: 0px -5px 20px rgba(0,0,0,0.75);
   }
 }
 
@@ -200,6 +197,19 @@ footer {
         margin: 10px;
       }
     }
+  }
+  @media only screen and (max-width: 1500px) {
+  .container {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    form {
+      width: 60%;
+      margin-top: 40px;
+    }
+  }
   }
 }
 
