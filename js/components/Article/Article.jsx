@@ -1,5 +1,4 @@
 import React from 'react';
-import AOS from 'aos'
 
 class Article extends React.Component {
     render(){
