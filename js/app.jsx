@@ -15,7 +15,6 @@ class App extends React.Component {
             <Main></Main>
             <Article years="2017"></Article>
             <Background background="firstbackground"></Background>
-            <Background background="firstbackground"></Background>
             <Article years="2016"></Article>
             <Background background="secondbackground"></Background>
             <Gallery></Gallery>

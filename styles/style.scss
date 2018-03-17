@@ -20,6 +20,9 @@ header {
     width: 1500px;
     display: flex;
     justify-content: space-between;
+    @media only screen and (min-width: 768px) {
+      justify-content: space-around;
+    }
     .searchbar {
       display: flex;
       align-items: center;
@@ -63,9 +66,6 @@ header {
 
 main {
   height: 400px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   background-image: url("./images/main_mobile.png");
   @media only screen and (min-width: 768px) {
     height: 800px;
