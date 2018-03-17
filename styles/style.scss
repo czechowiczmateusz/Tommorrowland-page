@@ -1,5 +1,7 @@
 @import "reset";
 
+$mobile-breakpoint: 768px;
+
 html {
   height: 100%
 }
@@ -65,16 +67,19 @@ header {
 }
 
 main {
-  height: 800px;
-  background-color: inherit;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-image: url("./images/main.jpg");
-  @media only screen and (max-width: 768px) {
-    background-attachment: initial;
+  display: none;
+}
+
+@media(min-width: $mobile-breakpoint) {
+  main {
     height: 800px;
+    display: flex;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("./images/main.jpg");
   }
 }
 
@@ -112,7 +117,6 @@ section.articles {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     background-image: url("./images/background1.jpg");
   }
 }
@@ -130,7 +134,6 @@ section.articles {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     background-image: url("./images/background2.jpg");
   }
 }
@@ -148,7 +151,6 @@ section.articles {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     background-image: url("./images/background3.jpg");
   }
 }

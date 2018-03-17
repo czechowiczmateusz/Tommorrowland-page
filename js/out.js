@@ -23015,7 +23015,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(203)(content, options);
+var update = __webpack_require__(202)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -23040,7 +23040,7 @@ exports = module.exports = __webpack_require__(194)(undefined);
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  height: 100%; }\n\nbody {\n  font-family: 'Lato', sans-serif;\n  background-color: #eee5e4;\n  height: 100%; }\n\nheader {\n  height: 100px;\n  color: #7a7979;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  header .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    @media only screen and (min-width: 768px) {\n      header .container {\n        justify-content: space-around; } }\n    header .container .searchbar {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 300px; }\n      header .container .searchbar input[type=text] {\n        width: 100%;\n        height: 30px;\n        box-sizing: border-box;\n        padding: 5px;\n        border-radius: 10px; }\n      header .container .searchbar img {\n        height: 50px;\n        width: 50px; }\n    header .container ul {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 400px;\n      text-transform: uppercase;\n      cursor: pointer; }\n      header .container ul li {\n        width: 100px;\n        height: 50px;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container ul li:hover {\n          background-color: rgba(5, 0, 0, 0.4);\n          border-radius: 10px;\n          color: #eee5e4; }\n\nmain {\n  height: 800px;\n  background-color: inherit;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover;\n  background-attachment: fixed;\n  background-image: url(" + __webpack_require__(196) + "); }\n  @media only screen and (max-width: 768px) {\n    main {\n      background-attachment: initial;\n      height: 800px; } }\n\nsection.articles {\n  display: flex;\n  justify-content: center; }\n  section.articles .container {\n    width: 1500px;\n    height: 500px;\n    display: flex;\n    align-items: center;\n    justify-content: space-around; }\n    section.articles .container h1 {\n      font-size: 100px;\n      color: #7a7979;\n      font-weight: bold; }\n    section.articles .container p {\n      width: 50%;\n      color: #aeadad; }\n\n.firstbackground {\n  background-image: url(" + __webpack_require__(197) + ");\n  height: 400px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover; }\n  @media only screen and (min-width: 768px) {\n    .firstbackground {\n      display: flex;\n      height: 800px;\n      background-color: inherit;\n      background-repeat: no-repeat;\n      background-position: center;\n      background-size: cover;\n      background-attachment: fixed;\n      background-image: url(" + __webpack_require__(198) + "); } }\n\n.secondbackground {\n  background-image: url(" + __webpack_require__(199) + ");\n  height: 400px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover; }\n  @media only screen and (min-width: 768px) {\n    .secondbackground {\n      display: flex;\n      height: 800px;\n      background-color: inherit;\n      background-repeat: no-repeat;\n      background-position: center;\n      background-size: cover;\n      background-attachment: fixed;\n      background-image: url(" + __webpack_require__(200) + "); } }\n\n.thirdbackground {\n  background-image: url(" + __webpack_require__(201) + ");\n  height: 400px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover; }\n  @media only screen and (min-width: 768px) {\n    .thirdbackground {\n      display: flex;\n      height: 800px;\n      background-color: inherit;\n      background-repeat: no-repeat;\n      background-position: center;\n      background-size: cover;\n      background-attachment: fixed;\n      background-image: url(" + __webpack_require__(202) + "); } }\n\nfooter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 400px; }\n  footer .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    footer .container form {\n      height: 300px;\n      display: flex;\n      flex-direction: column;\n      border: none;\n      justify-content: space-between; }\n      footer .container form textarea:focus, footer .container form input:focus {\n        outline: none; }\n      footer .container form input, footer .container form textarea {\n        border: none;\n        padding: 5px; }\n      footer .container form textarea {\n        resize: none; }\n      footer .container form input[type=\"submit\"] {\n        width: 50%;\n        height: 30px;\n        border: none;\n        color: white;\n        background-color: black; }\n    footer .container ul {\n      display: flex;\n      flex-direction: column; }\n      footer .container ul li {\n        display: flex;\n        justify-content: space-between;\n        width: 100px;\n        cursor: pointer;\n        margin: 10px; }\n  @media only screen and (max-width: 1500px) {\n    footer .container {\n      display: flex;\n      height: 500px;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center; }\n      footer .container form {\n        width: 60%;\n        margin-top: 40px; } }\n\n.slider {\n  height: 400px;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .slider .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    .slider .container img {\n      border-radius: 10px;\n      height: 200px;\n      width: 400px; }\n  @media screen and (max-width: 1220px) {\n    .slider {\n      height: 700px; }\n      .slider .container {\n        width: 100%;\n        flex-direction: column;\n        align-items: center; }\n        .slider .container img {\n          margin: 5px; } }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  height: 100%; }\n\nbody {\n  font-family: 'Lato', sans-serif;\n  background-color: #eee5e4;\n  height: 100%; }\n\nheader {\n  height: 100px;\n  color: #7a7979;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  header .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    @media only screen and (min-width: 768px) {\n      header .container {\n        justify-content: space-around; } }\n    header .container .searchbar {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 300px; }\n      header .container .searchbar input[type=text] {\n        width: 100%;\n        height: 30px;\n        box-sizing: border-box;\n        padding: 5px;\n        border-radius: 10px; }\n      header .container .searchbar img {\n        height: 50px;\n        width: 50px; }\n    header .container ul {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 400px;\n      text-transform: uppercase;\n      cursor: pointer; }\n      header .container ul li {\n        width: 100px;\n        height: 50px;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container ul li:hover {\n          background-color: rgba(5, 0, 0, 0.4);\n          border-radius: 10px;\n          color: #eee5e4; }\n\nmain {\n  display: none; }\n\n@media (min-width: 768px) {\n  main {\n    height: 800px;\n    display: flex;\n    background-color: inherit;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    background-attachment: fixed;\n    background-image: url(" + __webpack_require__(195) + "); } }\n\nsection.articles {\n  display: flex;\n  justify-content: center; }\n  section.articles .container {\n    width: 1500px;\n    height: 500px;\n    display: flex;\n    align-items: center;\n    justify-content: space-around; }\n    section.articles .container h1 {\n      font-size: 100px;\n      color: #7a7979;\n      font-weight: bold; }\n    section.articles .container p {\n      width: 50%;\n      color: #aeadad; }\n\n.firstbackground {\n  background-image: url(" + __webpack_require__(196) + ");\n  height: 400px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover; }\n  @media only screen and (min-width: 768px) {\n    .firstbackground {\n      display: flex;\n      height: 800px;\n      background-color: inherit;\n      background-repeat: no-repeat;\n      background-position: center;\n      background-size: cover;\n      background-image: url(" + __webpack_require__(197) + "); } }\n\n.secondbackground {\n  background-image: url(" + __webpack_require__(198) + ");\n  height: 400px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover; }\n  @media only screen and (min-width: 768px) {\n    .secondbackground {\n      display: flex;\n      height: 800px;\n      background-color: inherit;\n      background-repeat: no-repeat;\n      background-position: center;\n      background-size: cover;\n      background-image: url(" + __webpack_require__(199) + "); } }\n\n.thirdbackground {\n  background-image: url(" + __webpack_require__(200) + ");\n  height: 400px;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: cover; }\n  @media only screen and (min-width: 768px) {\n    .thirdbackground {\n      display: flex;\n      height: 800px;\n      background-color: inherit;\n      background-repeat: no-repeat;\n      background-position: center;\n      background-size: cover;\n      background-image: url(" + __webpack_require__(201) + "); } }\n\nfooter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 400px; }\n  footer .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    footer .container form {\n      height: 300px;\n      display: flex;\n      flex-direction: column;\n      border: none;\n      justify-content: space-between; }\n      footer .container form textarea:focus, footer .container form input:focus {\n        outline: none; }\n      footer .container form input, footer .container form textarea {\n        border: none;\n        padding: 5px; }\n      footer .container form textarea {\n        resize: none; }\n      footer .container form input[type=\"submit\"] {\n        width: 50%;\n        height: 30px;\n        border: none;\n        color: white;\n        background-color: black; }\n    footer .container ul {\n      display: flex;\n      flex-direction: column; }\n      footer .container ul li {\n        display: flex;\n        justify-content: space-between;\n        width: 100px;\n        cursor: pointer;\n        margin: 10px; }\n  @media only screen and (max-width: 1500px) {\n    footer .container {\n      display: flex;\n      height: 500px;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center; }\n      footer .container form {\n        width: 60%;\n        margin-top: 40px; } }\n\n.slider {\n  height: 400px;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .slider .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between; }\n    .slider .container img {\n      border-radius: 10px;\n      height: 200px;\n      width: 400px; }\n  @media screen and (max-width: 1220px) {\n    .slider {\n      height: 700px; }\n      .slider .container {\n        width: 100%;\n        flex-direction: column;\n        align-items: center; }\n        .slider .container img {\n          margin: 5px; } }\n", ""]);
 
 // exports
 
@@ -23128,50 +23128,49 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 195 */,
-/* 196 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/main.jpg";
 
 /***/ }),
-/* 197 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/background1_mobile.png";
 
 /***/ }),
-/* 198 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/background1.jpg";
 
 /***/ }),
-/* 199 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/background2_mobile.png";
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/background2.jpg";
 
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/background3_mobile.png";
 
 /***/ }),
-/* 202 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/background3.jpg";
 
 /***/ }),
-/* 203 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -23227,7 +23226,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(204);
+var	fixUrls = __webpack_require__(203);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -23543,7 +23542,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 204 */
+/* 203 */
 /***/ (function(module, exports) {
 
 
