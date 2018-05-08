@@ -7,6 +7,7 @@ import Background from './components/Background/';
 import Gallery from './components/Gallery/';
 import Footer from './components/Footer/';
 require('.././styles/style.scss');
+require('aos/src/sass/aos.scss');
 
 class App extends React.Component {
     render(){
